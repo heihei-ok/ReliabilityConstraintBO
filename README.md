@@ -1,4 +1,8 @@
 # Constrained-multi-fidelity-active-learning-framework
+
+“The constrained multi-fidelity active learning framework provides a general, data-efficient pathway for property optimization in additive manufacturing under practical constraints.”
+
+
 ![img.png](img.png)
 # data
 This study constructed a comprehensive Ti-6Al-4V LPBF database covering a wide range of process-performance relationships,
