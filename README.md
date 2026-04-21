@@ -1,9 +1,3 @@
-# Constrained-multi-fidelity-active-learning-framework
-
-“The constrained multi-fidelity active learning framework provides a general, data-efficient pathway for property optimization in additive manufacturing under practical constraints.”
-
-
-![img.png](img.png)
 # data
 This study constructed a comprehensive Ti-6Al-4V LPBF database covering a wide range of process-performance relationships,
 containing 138 sets of processing parameters and corresponding mechanical properties from 46 papers. 
@@ -14,7 +8,6 @@ The original data can be found in ./data/data_train.xlsx
 # original_literature
 All the original literature can be found in ./original literature
 # The workflow
-The constrained multi-fidelity framework was first trained on the initial dataset comprising 138 parameter combinations extracted from the literature.
 In each iteration, two new combinations are selected from 780 unexplored datasets.
 For each selected parameter combination, three samples are fabricated and tested, and the average UTS and TE values are recorded. 
 After the first iteration, the parameter combination was added to the database with its fidelity parameter set to 1.0 for the next iteration. 
